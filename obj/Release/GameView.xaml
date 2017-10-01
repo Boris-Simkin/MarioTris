@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="MarioTris.GameView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MarioTris"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" MinWidth="1366" MinHeight="768">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/mario_wallpaper.jpg"/>
+        </Grid.Background>
+        <Canvas x:Name="gameRectangle" HorizontalAlignment="Left" Height="753" Margin="315,15,0,0" VerticalAlignment="Top" Width="395">
+            <Canvas.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/mario.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <MediaElement x:Name="backgroundMusic" 
+              AutoPlay="True" 
+              AudioCategory="BackgroundCapableMedia" 
+              Source="80s-music-synth-pop.mp3" Margin="683,384,361,278" IsLooping="True">
+        </MediaElement>
+        <MediaElement x:Name="MovingSound" 
+              AutoPlay="False" 
+              AudioCategory="BackgroundCapableMedia" 
+              Source="beep.mp3" Margin="683,384,361,278">
+        </MediaElement>
+        <Image x:Name="yellowBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Yellow_block.png" Visibility="Collapsed"/>
+        <Image x:Name="pinkBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Pink_block.png" Visibility="Collapsed"/>
+        <Image x:Name="greenBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Green_block.png" Visibility="Collapsed"/>
+        <Image x:Name="purpleBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Purple_block.png" Visibility="Collapsed"/>
+        <Image x:Name="redBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Red_block.png" Visibility="Collapsed"/>
+        <Image x:Name="blueBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Blue_block.png" Visibility="Collapsed"/>
+        <Image x:Name="orangeBlock" HorizontalAlignment="Left" Height="100" Margin="990,495,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Orange_block.png" Visibility="Collapsed"/>
+        <Canvas x:Name="nextFigureCanvas" HorizontalAlignment="Left" Height="132" Margin="-70,395,0,0" VerticalAlignment="Top" Width="140"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="385" Margin="35,510,0,-127" VerticalAlignment="Top" Width="205" Source="Assets/pipe.png"/>
+        <TextBlock x:Name="scoreTxtBlk" HorizontalAlignment="Left" Margin="860,131,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="100" Width="315" FontSize="66.667" FontFamily="Impact" Foreground="#FFD88F0E"/>
+        <TextBlock x:Name="level" HorizontalAlignment="Left" Margin="745,15,0,0" TextWrapping="Wrap" Text="Level:" VerticalAlignment="Top" Height="100" Width="245" FontSize="66.667" FontFamily="Impact" Foreground="#FFD88F0E"/>
+        <TextBlock x:Name="LevelTxtBlk" HorizontalAlignment="Left" Margin="940,15,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Height="100" Width="315" FontSize="66.667" FontFamily="Impact" Foreground="#FFD88F0E"/>
+        <Image x:ConnectionId='1' x:Name="refresh" Margin="1120,15,111,0" Source="Assets/refresh.png"                                         Height="100" VerticalAlignment="Top"/>
+        <TextBlock x:Name="refreshTxtBlk" Margin="1145,156,132,0" TextWrapping="Wrap" Text="Refresh" VerticalAlignment="Top" Height="42" FontSize="26.667" FontFamily="Impact" Foreground="#FFD88F0E"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="89" Margin="745,131,0,0" VerticalAlignment="Top" Width="75" Source="Assets/Star_Coin.png"/>
+        <Image x:ConnectionId='2' x:Name="pause" Margin="1255,0,36,668" Source="Assets/PauseHot.png"                                       Height="85" VerticalAlignment="Bottom"/>
+        <Image x:ConnectionId='3' x:Name="mute" Margin="1290,690,10,0" Source="Assets/volume.png"                                      Height="68" VerticalAlignment="Top"/>
+    </Grid>
+
+</Page>
+
+

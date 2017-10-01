@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3TI0GU1</Machine>
+    <WindowsUser>boria</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2df3d437-3b3b-444d-84e0-1e00d3795221</PackageIdentityName>
+    <PackageIdentityPublisher>CN=boria</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>B7FA23FFE2D6F3DEBE1A9F908CA8C79DD1BBF90BD7D332C0D20152D8B8159B09</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2df3d437-3b3b-444d-84e0-1e00d3795221_1.0.0.0_neutral__dfgm7ef0k1etc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2df3d437-3b3b-444d-84e0-1e00d3795221_dfgm7ef0k1etc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2df3d437-3b3b-444d-84e0-1e00d3795221</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=boria</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-01T18:01:25.310</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\MarioTris.exe">
+      <PackagePath>MarioTris.exe</PackagePath>
+      <Modified>2017-10-01T18:01:24.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\about.jpg">
+      <PackagePath>Assets\about.jpg</PackagePath>
+      <Modified>2016-06-02T17:47:22.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\game_over.jpg">
+      <PackagePath>Assets\game_over.jpg</PackagePath>
+      <Modified>2016-05-29T14:12:26.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\mario.jpg">
+      <PackagePath>Assets\mario.jpg</PackagePath>
+      <Modified>2016-05-28T19:01:05.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\mario_menu.jpg">
+      <PackagePath>Assets\mario_menu.jpg</PackagePath>
+      <Modified>2016-06-02T15:19:52.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\mario_wallpaper.jpg">
+      <PackagePath>Assets\mario_wallpaper.jpg</PackagePath>
+      <Modified>2016-05-28T14:42:24.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Blue_block.png">
+      <PackagePath>Assets\Blue_block.png</PackagePath>
+      <Modified>2016-05-27T17:54:06.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Green_block.png">
+      <PackagePath>Assets\Green_block.png</PackagePath>
+      <Modified>2016-05-27T17:43:33.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T20:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Menu.png">
+      <PackagePath>Assets\Menu.png</PackagePath>
+      <Modified>2016-06-02T19:08:11.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Orange_block.png">
+      <PackagePath>Assets\Orange_block.png</PackagePath>
+      <Modified>2016-05-27T17:46:22.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\PauseHot.png">
+      <PackagePath>Assets\PauseHot.png</PackagePath>
+      <Modified>2016-05-30T15:22:20.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Pink_block.png">
+      <PackagePath>Assets\Pink_block.png</PackagePath>
+      <Modified>2016-05-27T17:57:36.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\pipe.png">
+      <PackagePath>Assets\pipe.png</PackagePath>
+      <Modified>2016-05-29T09:04:38.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Purple_block.png">
+      <PackagePath>Assets\Purple_block.png</PackagePath>
+      <Modified>2016-05-27T17:48:52.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Red_block.png">
+      <PackagePath>Assets\Red_block.png</PackagePath>
+      <Modified>2016-05-27T17:47:37.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\refresh.png">
+      <PackagePath>Assets\refresh.png</PackagePath>
+      <Modified>2016-05-29T16:51:35.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T20:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-02T21:51:00.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Star_Coin.png">
+      <PackagePath>Assets\Star_Coin.png</PackagePath>
+      <Modified>2016-05-30T09:22:31.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T20:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\volume.png">
+      <PackagePath>Assets\volume.png</PackagePath>
+      <Modified>2016-05-30T16:13:47.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Assets\Yellow_block.png">
+      <PackagePath>Assets\Yellow_block.png</PackagePath>
+      <Modified>2016-05-27T17:45:13.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\beep.mp3">
+      <PackagePath>beep.mp3</PackagePath>
+      <Modified>2016-05-25T15:16:41.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\GameOver.mp3">
+      <PackagePath>GameOver.mp3</PackagePath>
+      <Modified>2016-06-02T17:14:05.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\Luigis Mansion - Super Mario Bros. Theme.mp3">
+      <PackagePath>Luigis Mansion - Super Mario Bros. Theme.mp3</PackagePath>
+      <Modified>2016-06-03T17:19:38.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\coin.wav">
+      <PackagePath>coin.wav</PackagePath>
+      <Modified>2016-06-03T17:26:03.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\stomp.wav">
+      <PackagePath>stomp.wav</PackagePath>
+      <Modified>2016-06-03T17:27:11.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\MarioTris.xr.xml">
+      <PackagePath>MarioTris.xr.xml</PackagePath>
+      <Modified>2016-06-26T17:07:02.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-06-02T14:32:05.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\About.xbf">
+      <PackagePath>About.xbf</PackagePath>
+      <Modified>2016-06-04T14:27:48.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\GameOver.xbf">
+      <PackagePath>GameOver.xbf</PackagePath>
+      <Modified>2016-06-26T19:44:12.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\GameView.xbf">
+      <PackagePath>GameView.xbf</PackagePath>
+      <Modified>2016-06-20T13:07:37.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\HighScores.xbf">
+      <PackagePath>HighScores.xbf</PackagePath>
+      <Modified>2016-06-20T13:07:37.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\Login.xbf">
+      <PackagePath>Login.xbf</PackagePath>
+      <Modified>2016-06-26T19:44:12.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-06-20T13:07:37.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\SignIn.xbf">
+      <PackagePath>SignIn.xbf</PackagePath>
+      <Modified>2016-06-26T19:44:12.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2017\Projects\MarioTris\MarioTris\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-01T18:01:25.066</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

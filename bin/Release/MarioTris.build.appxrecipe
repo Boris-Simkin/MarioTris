@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3TI0GU1</Machine>
+    <WindowsUser>boria</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2df3d437-3b3b-444d-84e0-1e00d3795221</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\MarioTris.exe">
+      <PackagePath>MarioTris.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\80s-music-synth-pop.mp3">
+      <PackagePath>80s-music-synth-pop.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\beep.mp3">
+      <PackagePath>beep.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\GameOver.mp3">
+      <PackagePath>GameOver.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Blue_block.png">
+      <PackagePath>Assets\Blue_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Green_block.png">
+      <PackagePath>Assets\Green_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Orange_block.png">
+      <PackagePath>Assets\Orange_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\PauseHot.png">
+      <PackagePath>Assets\PauseHot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Pink_block.png">
+      <PackagePath>Assets\Pink_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\pipe.png">
+      <PackagePath>Assets\pipe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Purple_block.png">
+      <PackagePath>Assets\Purple_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Red_block.png">
+      <PackagePath>Assets\Red_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\refresh.png">
+      <PackagePath>Assets\refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Star_Coin.png">
+      <PackagePath>Assets\Star_Coin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\volume.png">
+      <PackagePath>Assets\volume.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\Yellow_block.png">
+      <PackagePath>Assets\Yellow_block.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\game_over.jpg">
+      <PackagePath>Assets\game_over.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\mario.jpg">
+      <PackagePath>Assets\mario.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\mario_menu.jpg">
+      <PackagePath>Assets\mario_menu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\Assets\mario_wallpaper.jpg">
+      <PackagePath>Assets\mario_wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\MarioTris.xr.xml">
+      <PackagePath>MarioTris.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\GameOver.xbf">
+      <PackagePath>GameOver.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\GameView.xbf">
+      <PackagePath>GameView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

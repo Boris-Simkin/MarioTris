@@ -1,0 +1,1 @@
+C:\Users\boria\Documents\Visual Studio 2015\Projects\Tetris_with_menu\MarioTris\MarioTris\MarioTris.csproj;neutral
